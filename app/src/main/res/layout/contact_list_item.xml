@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/contactItemLinearLayout"
+    android:onClick="deleteContact">
+
+    <TextView
+        android:text="@string/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listItemNameTextView"
+        android:layout_weight="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="normal|bold"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listItemPhoneNumberTextView"
+        android:layout_weight="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginLeft="5dp"
+        android:textSize="16sp"
+        android:text="@string/phone_number"/>
+</LinearLayout>

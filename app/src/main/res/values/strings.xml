@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SMS Sender</string>
+    <string name="add_contacts_button_text">Add Contacts...</string>
+    <string name="send_text_message_button_text">Send Text Message</string>
+    <string name="text_message_hint">Enter text message here...</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+</resources>
